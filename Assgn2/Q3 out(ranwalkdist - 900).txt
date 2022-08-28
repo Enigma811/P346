@@ -1,0 +1,2 @@
+The rms distance covered(per step) after 900 steps: 1.6261293481528092
+The displacement after 900 steps: 51.30536102636894

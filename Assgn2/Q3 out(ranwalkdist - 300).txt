@@ -1,0 +1,2 @@
+The rms distance covered(per step) after 300 steps: 1.6578638620131414
+The displacement after 300 steps: 25.486834182704573

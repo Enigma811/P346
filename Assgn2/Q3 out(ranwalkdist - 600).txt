@@ -1,0 +1,2 @@
+The rms distance covered(per step) after 600 steps: 1.580795382299077
+The displacement after 600 steps: 26.867806186726675
