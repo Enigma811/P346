@@ -102,7 +102,6 @@ def det(y):
       #for converting column to rref form
       col_rref(x,d,d,0,1)
     d = d + 1
-  prm(x)
   for i in range(0, len(x)): res = res*x[i][i]
   if len(x)%2 != 0: return(res*(-1))
   else: return res
