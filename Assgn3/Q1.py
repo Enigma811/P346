@@ -8,7 +8,7 @@ inp = fin.readlines()
 in_mat=[1]*len(inp)
 for k in range(0, len(inp)): 
     s = inp[k]
-    in_mat[k] = [float(d) for d in re.findall(r'-?\d+', s)]
+    in_mat[k] = [float(d) for d in re.findall(r'-?\d*\.?\d+', s)] 
 
 if len(in_mat)+1 == len(in_mat[0]):
     #extracting A & B
