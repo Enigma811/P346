@@ -182,6 +182,7 @@ def diag_dom(x):
 
 #Gauss-Jordan Elimination
 def gj_ele(x, ck=1, l=0, u=0):
+  # takes augmented matrix as input
   # ck=0 corresponds to no scaling of the lead element, diagonals are not 1
   # ck=1 (default) corresponds to scaling of the lead element, diagonals are 1
   # 'l' & 'u' takes corresponding inputs for col_rref
@@ -200,6 +201,7 @@ def gj_ele(x, ck=1, l=0, u=0):
 
 #LU Decomposition
 def doolittle_lu(x):
+  # takes square matrix as input; pre-augmented
     if len(x) != len(x[0]):
         print("Error: A is not a square matrix in AX=B")
         print("# of variables != # of equations")
@@ -251,6 +253,7 @@ def cholesky_deco(x):
 
 #Gauss - jacobi
 def gji(val, tol, max = 25, ini=0):
+  # takes augmented matrix as input
   #tol corresponds to precision/tolerance
   #max corresponds  to the maximum number of iterations
   #ini=0 corresponds to random initial guess
@@ -304,6 +307,7 @@ def gji(val, tol, max = 25, ini=0):
 
 #Gauss - Seidel
 def gsd(val, tol, max = 50, ini = 0):
+  # takes augmented matrix as input
   #tol corresponds to precision/tolerance
   #max corresponds  to the maximum number of iterations
   #ini=0 corresponds to random initial guess
