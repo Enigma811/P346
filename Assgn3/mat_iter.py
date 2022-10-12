@@ -189,10 +189,6 @@ def gj_ele(x, ck=1, l=0, u=0):
     print("Error: Pre-augmented matrix is not a square matrix")
     return
   
-  if det(x) == 0:
-        print("Error: A is not invertible in AX=B, No solutions exist")
-        return
-  
   for d in range(0, len(x)):
     pivot(x, d, d)
     if ck==1: 
