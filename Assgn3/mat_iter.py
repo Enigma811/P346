@@ -167,9 +167,18 @@ def diag_dom(x):
     for i in range(0,len(x)):
         ck = abs(x[i][i])
         if ck < row_absum(x,i,i):
-            for j in range(i+1, len(x)):
+            for j in range(i+1, len(x)): # looking for best candidate for diagonal element x[i][i]
                 if abs(x[j][i])>=row_absum(x,j,i): rswap(x,j,i)
-    return x
+    
+    #check if the matrix after swapping is diagonally dominant
+    dom = 1
+    for i in range(0,len(x)):
+      if abs(x[i][i]) <= row_absum(x,i,i): dom = 0
+
+    if dom == 1: return x
+    else:
+      print("Error: Diagonally dominant form for Input matrix not found")
+      return 
 
 #Gauss-Jordan Elimination
 def gj_ele(x, ck=1, l=0, u=0):
