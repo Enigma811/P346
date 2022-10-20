@@ -1,0 +1,3 @@
+Area of Ellipse (Precision: 10^-4)
+6.2888
+Number of iterations: 10000
