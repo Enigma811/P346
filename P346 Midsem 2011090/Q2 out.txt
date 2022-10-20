@@ -1,0 +1,5 @@
+
+Solution by Newton Raphson (Precision: 10^-4)
+
+Wien's Constant: 0.002899
+Number of iterations: 12
