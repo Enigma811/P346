@@ -1,0 +1,16 @@
+Straight Line fitting by least square method
+
+
+For power law:
+
+a = 21.046352159550004     Error in estimate: 1.0843187787790949
+b = -0.53740930145056     Error in estimate: 0.22311347707717552
+Pearson's r^2 : 0.9945183457900387
+
+For exponential law:
+
+a = 12.21299282456827     Error in estimate: 0.3911208151382824
+b = -0.05845553447818332     Error in estimate: 0.002911208151382824
+Pearson's r^2 : 0.9017917512937712
+
+ Thus, power law model gives a better fit for given data
