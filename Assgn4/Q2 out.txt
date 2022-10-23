@@ -1,0 +1,19 @@
+Root(s) of nonlinear function (Tolerance 10^-6)
+
+
+f(x) = -x - cos(x)
+
+Method           Result              No. of iterations
+Bisection :     -0.7390851974487305   21               Intial Bracket: (-1,1)
+Bisection :     -0.7390851974487305   22               Intial Bracket: (-3,-2)
+Bisection :     -0.7390851974487305   24               Intial Bracket: (3,4)
+
+Regula falsi:   -0.7390850630385933   7               Intial Bracket: (-1,1)
+Regula falsi:   -0.7390850630385933   8               Intial Bracket: (-3,-2)
+Regula falsi:   -0.7390847824489231   10               Intial Bracket: (3,4)
+
+Newton Raphson: -0.739085133385284    5              Initial guess: 0
+Newton Raphson: -0.7390852043758361    6              Initial guess: -3
+Newton Raphson: -0.7390851332157974    7              Initial guess: 2
+
+Therefore, Newton Raphson converges to the root the fastest.

@@ -1,0 +1,11 @@
+
+Root(s) of polynomial by Laguerre's method (Precision 10^-6)
+
+
+Root   No. of iterations
+1.0        0
+2.0        2
+-1.0        1
+-2.0        1
+
+The roots of 4 - 5*(x**2) + (x**4) are 1.0, 2.0, -1.0, -2.0

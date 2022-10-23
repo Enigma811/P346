@@ -1,0 +1,18 @@
+Root(s) of nonlinear function (Tolerance 10^-6)
+
+
+f(x) = log(x/2) - sin(5x/2)
+
+Method           Result              No. of iterations
+Bisection :     2.623140335083008   21               Intial Bracket: (1.5,2.5)
+Bisection :     1.4019298553466797   21               Intial Bracket: (1,3)
+Bisection :     1.4019300937652588   22               Intial Bracket: (1,4)
+Bisection :     3.5284252166748047   20               Intial Bracket: (3,4)
+
+Regula falsi:   2.6231403619058766   7               Intial Bracket: (1.5,2.5)
+Regula falsi:   1.4019300668677432   8               Intial Bracket: (1,3)
+Regula falsi:   1.4019300150212148   10               Intial Bracket: (1,4)
+Regula falsi:   3.5284251831822253   8               Intial Bracket: (3,4)
+
+Therefore, Regula falsi converges to the root faster.
+The function has multiple roots.

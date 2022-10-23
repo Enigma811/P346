@@ -1,0 +1,6 @@
+
+Polynomial fitting by Least square method
+
+
+Best 3 degree polynomial fit:
+0.5746586674195753 + 4.725861442142391*(x**1) - 11.1282177776444*(x**2) + 7.668677622910181*(x**3)
