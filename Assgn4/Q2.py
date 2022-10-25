@@ -1,4 +1,3 @@
-import re
 import math
 from mypylib import root_fit as rf
 

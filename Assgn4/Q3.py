@@ -1,7 +1,4 @@
-import re
-import numpy as np
 from mypylib import root_fit as rf
-from matplotlib import pyplot as plt
 
 #input is the list of coefficients of the polynomial in ascending order of power.
 a = [4,0,-5,0,1]
