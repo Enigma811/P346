@@ -58,6 +58,7 @@ plt.grid()
 plt.legend(('Bisection','Regula fal'),loc='upper center')
 plt.xlabel("Iteration Count")
 plt.ylabel("Root estimate")
+plt.title("Q1: Roots of Non-linear fn - Bracket (1.5,2.5)")
 plt.savefig("Q1 Bracket 1.5,2.5.png")
 
 x1 = []
@@ -78,6 +79,7 @@ plt.grid()
 plt.legend(('Bisection','Regula fal'),loc='upper center')
 plt.xlabel("Iteration Count")
 plt.ylabel("Root estimate")
+plt.title("Q1: Roots of Non-linear fn - Bracket (1,4)")
 plt.savefig("Q1 Bracket 1,4.png")
 
 x1 = []
@@ -98,4 +100,5 @@ plt.grid()
 plt.legend(('Bisection','Regula fal'),loc='upper center')
 plt.xlabel("Iteration Count")
 plt.ylabel("Root estimate")
+plt.title("Q1: Roots of Non-linear fn - Bracket (3,4)")
 plt.savefig("Q1 Bracket 3,4.png")

@@ -3,17 +3,140 @@ Root(s) of nonlinear function (Tolerance 10^-6)
 
 f(x) = -x - cos(x)
 
-Method           Result              No. of iterations
-Bisection :     -0.7390851974487305   21               Intial Bracket: (-1,1)
-Bisection :     -0.7390851974487305   22               Intial Bracket: (-3,-2)
-Bisection :     -0.7390851974487305   24               Intial Bracket: (3,4)
+Method         Result     No. of iterations
 
-Regula falsi:   -0.7390850630385933   7               Intial Bracket: (-1,1)
-Regula falsi:   -0.7390850630385933   8               Intial Bracket: (-3,-2)
-Regula falsi:   -0.7390847824489231   10               Intial Bracket: (3,4)
+Intial Bracket: (-1,1)
 
-Newton Raphson: -0.739085133385284    5              Initial guess: 0
-Newton Raphson: -0.7390852043758361    6              Initial guess: -3
-Newton Raphson: -0.7390851332157974    7              Initial guess: 2
+Bisection :     -0.5   1.0
+Bisection :     -0.75   2.0
+Bisection :     -0.625   3.0
+Bisection :     -0.6875   4.0
+Bisection :     -0.71875   5.0
+Bisection :     -0.734375   6.0
+Bisection :     -0.7421875   7.0
+Bisection :     -0.7382812   8.0
+Bisection :     -0.7402344   9.0
+Bisection :     -0.7392578   10.0
+Bisection :     -0.7387695   11.0
+Bisection :     -0.7390137   12.0
+Bisection :     -0.7391357   13.0
+Bisection :     -0.7390747   14.0
+Bisection :     -0.7391052   15.0
+Bisection :     -0.73909   16.0
+Bisection :     -0.7390823   17.0
+Bisection :     -0.7390862   18.0
+Bisection :     -0.7390842   19.0
+Bisection :     -0.7390852   20.0
+Bisection :     -0.7390847   21.0
+Bisection :     -0.7390852   21.0
+
+Regula falsi:   -0.7701512   1.0
+Regula falsi:   -0.8640052   2.0
+Regula falsi:   -0.8692635   3.0
+Regula falsi:   -0.8695286   4.0
+Regula falsi:   -0.8695419   5.0
+Regula falsi:   -0.7390851   6.0
+
+
+Intial Bracket: (-3,-2)
+
+Bisection :     0.0   1.0
+Bisection :     -0.5   2.0
+Bisection :     -0.75   3.0
+Bisection :     -0.625   4.0
+Bisection :     -0.6875   5.0
+Bisection :     -0.71875   6.0
+Bisection :     -0.734375   7.0
+Bisection :     -0.7421875   8.0
+Bisection :     -0.7382812   9.0
+Bisection :     -0.7402344   10.0
+Bisection :     -0.7392578   11.0
+Bisection :     -0.7387695   12.0
+Bisection :     -0.7390137   13.0
+Bisection :     -0.7391357   14.0
+Bisection :     -0.7390747   15.0
+Bisection :     -0.7391052   16.0
+Bisection :     -0.73909   17.0
+Bisection :     -0.7390823   18.0
+Bisection :     -0.7390862   19.0
+Bisection :     -0.7390842   20.0
+Bisection :     -0.7390852   21.0
+Bisection :     -0.7390847   22.0
+Bisection :     -0.7390852   22.0
+
+Regula falsi:   0.0   1.0
+Regula falsi:   -0.7701512   2.0
+Regula falsi:   -0.8640052   3.0
+Regula falsi:   -0.8692635   4.0
+Regula falsi:   -0.8695286   5.0
+Regula falsi:   -0.8695419   6.0
+Regula falsi:   -0.7390851   7.0
+
+
+Intial Bracket: (3,4)
+
+Bisection :     2.5   1.0
+Bisection :     1.5   2.0
+Bisection :     0.5   3.0
+Bisection :     -0.5   4.0
+Bisection :     -0.75   5.0
+Bisection :     -0.625   6.0
+Bisection :     -0.6875   7.0
+Bisection :     -0.71875   8.0
+Bisection :     -0.734375   9.0
+Bisection :     -0.7421875   10.0
+Bisection :     -0.7382812   11.0
+Bisection :     -0.7402344   12.0
+Bisection :     -0.7392578   13.0
+Bisection :     -0.7387695   14.0
+Bisection :     -0.7390137   15.0
+Bisection :     -0.7391357   16.0
+Bisection :     -0.7390747   17.0
+Bisection :     -0.7391052   18.0
+Bisection :     -0.73909   19.0
+Bisection :     -0.7390823   20.0
+Bisection :     -0.7390862   21.0
+Bisection :     -0.7390842   22.0
+Bisection :     -0.7390852   23.0
+Bisection :     -0.7390847   24.0
+Bisection :     -0.7390852   24.0
+
+Regula falsi:   2.5   1.0
+Regula falsi:   1.5   2.0
+Regula falsi:   0.5   3.0
+Regula falsi:   -0.5   4.0
+Regula falsi:   -0.8425367   5.0
+Regula falsi:   -0.8681495   6.0
+Regula falsi:   -0.8694727   7.0
+Regula falsi:   -0.8695391   8.0
+Regula falsi:   -0.7390848   9.0
+
+
+Intial Guess: 0
+
+Newton Raphson :     -1.0   1.0
+Newton Raphson :     -0.7503639   2.0
+Newton Raphson :     -0.7391129   3.0
+Newton Raphson :     -0.7390851   4.0
+
+
+Intial Guess: -3
+
+Newton Raphson :     0.4965582   1.0
+Newton Raphson :     -2.1310038   2.0
+Newton Raphson :     -0.6896627   3.0
+Newton Raphson :     -0.739653   4.0
+Newton Raphson :     -0.7390852   5.0
+
+
+Intial Guess: 2
+
+Newton Raphson :     -15.4620533   1.0
+Newton Raphson :     -2.2471157   2.0
+Newton Raphson :     -0.6329397   3.0
+Newton Raphson :     -0.7418624   4.0
+Newton Raphson :     -0.7390868   5.0
+Newton Raphson :     -0.7390851   6.0
+
 
 Therefore, Newton Raphson converges to the root the fastest.
