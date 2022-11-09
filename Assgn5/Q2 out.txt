@@ -1,0 +1,11 @@
+Numerical Integration by Monte Carlo (uniform sampling)(Precision: 10^-4)
+
+N            Result         Error
+5000        0.5537         0.05026
+10000        0.5424         0.04974
+15000        0.54336         0.04951
+20000        0.54181         0.04967
+25000        0.54506         0.04965
+30000        0.54511         0.04965
+
+The estimate for integral using 30000 test points is 0.54511 with an error of 0.04965
