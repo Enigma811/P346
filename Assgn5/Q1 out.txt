@@ -1,0 +1,15 @@
+Numerical  Integration
+
+Method              Result                N
+Midpoint        3.6189788939398126         10
+Trapezoidal     3.622608380359955         10
+Simpson         3.6201887227465264         10
+
+Midpoint        3.6198800323016473         20
+Trapezoidal     3.6207936371498834         20
+Simpson         3.620184567251059         20
+
+Midpoint        3.62004881243588         30
+Trapezoidal     3.6204553882819273         30
+Simpson         3.6201843377178946         30
+
