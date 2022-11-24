@@ -41,6 +41,7 @@ def one_dPDE(fx0,f0t,flt,ti,tf,nt,xi,xf,nx):
         arr[0] = (1-2*al)*arr[0] + al*arr[1]
         for i in range(1,(len(arr)-1)): arr[i] = al*(arr[i-1] + arr[i+1]) + (1-2*al)*arr[i]
         arr[len(arr)-1] = (1-2*al)*arr[len(arr)-1] + al*arr[len(arr)-2]
+        # plotting at various time intervals, intervals chosen such that change in Temperature is properly observed.
         if (j%5 == 0) & (j<100): plt.plot(x_i,arr)
         elif (j%50 == 0) & (j<500): plt.plot(x_i,arr)
         elif(j%500 == 0): plt.plot(x_i,arr)
