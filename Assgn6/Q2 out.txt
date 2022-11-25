@@ -10,6 +10,6 @@ Length of rod = 10m
 
 Initial guess for dT/dx: Random
 
-Number of iterations to achieve given precision: 6
+Number of revisions to achieve given precision: 4
 
-Estimated position at which T(x) = 100: 4.405307866167183 m
+Estimated position at which T(x) = 100: 4.40531 m
