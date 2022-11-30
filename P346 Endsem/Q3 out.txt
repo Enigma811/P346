@@ -1,0 +1,13 @@
+Max displacement (Newton Raphson) (Tolerance 10^-3)
+
+Initial guess for Newton Raphson = Random
+
+
+For displacement x, force acting on the system is given by:
+F(x) = F - x*exp(x)
+
+F = 2.5 N
+
+At max displacement, the net force on the system is zero. Thus, we have,
+
+Max displacement of spring = 0.959 m
