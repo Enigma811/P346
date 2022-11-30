@@ -1,0 +1,11 @@
+Numerical  Integration (Simpson's Method): Pendulum's period of oscillation
+
+Precision = 10^-2
+
+Number of divisions given = 10
+
+Length of pendulum = 1 m
+Angular amplitude = pi/4
+g = 9.8 m/s^2
+
+Time period of oscillation = 2.087 s

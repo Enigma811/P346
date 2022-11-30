@@ -1,0 +1,19 @@
+Eigenvalue estimation by Power iteration (Precision: 10^-3)
+
+
+Input matrix:
+1.0 -2.0 0.0 5.0 
+0.0 7.0 1.0 5.0 
+0.0 4.0 4.0 0.0 
+0.0 0.0 0.0 2.0 
+
+The dominant eigenvalue is 8.0004
+The corresponding (normalized) eigenvector is:
+-0.1981
+0.6932
+0.693
+0.0
+
+The number of iterations taken to obtain given precision = 3
+
+The initial test vector is: Random

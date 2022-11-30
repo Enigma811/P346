@@ -1,0 +1,6 @@
+
+Polynomial fitting by Least square method
+
+
+Best 4 degree polynomial fit:
+0.254629507211548 - 1.1937592138092277*(x**1) - 0.45725541238296813*(x**2) - 0.8025653910658186*(x**3) + 0.013239427477396298*(x**4)
