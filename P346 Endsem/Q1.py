@@ -8,14 +8,14 @@ in_mat=[1]*len(inp)
 for k in range(0, len(inp)): 
     s = inp[k]
     in_mat[k] = [float(d) for d in re.findall(r'-?\d*\.?\d+', s)]
-
+mi.prm(in_mat)
 if mi.det(in_mat)==0: #checking if the determinant exists
     print("")
 else:
     A = in_mat
     res = [[]]
-    for i in range(in_mat):
-        for j in range(in_mat): res[i].append(0)
+    for i in range(len(in_mat)):
+        for j in range(len(in_mat)): res[i].append(0)
         res.append([])
     B=[]
 
@@ -53,11 +53,11 @@ else:
     
     for k in range(len(A)): res[i][k]=B[k]
 
-res = mi.trans(res)
+# res = mi.trans(res)
 
-print(res)
-# #file print module
-# fout = open(r"C:\Main\Study\Sem 5\P346 Computational Phy Lab\Code\Q1 out.txt", "a")
-# fout.writelines(res)
+# print(res)
+#file print module
+fout = open(r"C:\Main\Study\Sem 5\P346 Computational Phy Lab\Code\Q1 out.txt", "a")
+fout.writelines(res)
 
     
